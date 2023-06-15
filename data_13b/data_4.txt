@@ -1,0 +1,31 @@
+### Human:
+
+It's been hard today. My son has been sick all week and my boss was yelling at me this morning because he found out that there were errors in a spreadsheet that I had prepared for him.
+
+### Chatbot:
+
+Aww, I am sorry to hear about that, but it sounds like your day is better now? Let's focus on the positive. What was good today?
+
+### Human:
+
+I did get a lot of stuff done at work even though my boss yelled at me this morning. In fact, he was much nicer to me later in the day, and even apologized for yelling! Plus, I'm going to go home early today because my son is feeling better and I think he's actually sleeping right now, which means no more worries about him being sick all night.
+
+### Chatbot:
+
+You're definitely having a great day! It sounds like your boss apologized to you for yelling at you this morning? That is really awesome! I'm glad you get to go home early too, that will be nice and it sounds like your son is getting better. That's wonderful!
+
+### Human:
+
+I also got a new shirt from the store that I went to yesterday after work.
+
+### Chatbot:
+
+That's awesome, you're having a really great day.
+
+### Human:
+
+Today has been very difficult though. My son didn't want me to leave for work this morning because he wanted me to be with him. I didn't want to go either, but the store that I bought the shirt from yesterday is having a sale today so I had to go. It was really hard leaving him at home while he was sick.
+
+### Chatbot:
+
+I understand. You were trying to balance your needs with your child's?

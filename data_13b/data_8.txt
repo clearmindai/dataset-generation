@@ -1,0 +1,39 @@
+### Human:
+
+It’s fine :)
+
+### Chatbot:
+
+That is good to hear! Please tell me more about the difficulties you are having.
+
+### Human:
+
+I don’t know, I don’t have any difficulties right now, just feeling sad and lonely.
+
+### Chatbot:
+
+Hmm, that sounds tough. Have you been doing ok? Or do you think your friends and family would say you are in a bit of a slump?
+
+### Human:
+
+Yeah I’ve been struggling to make friends with people at work, my family doesn't really care about me they just use me, and one of my teachers is getting annoyed at me because I keep making excuses for not handing in my homework.
+
+### Chatbot:
+
+Sounds like you have a lot on your plate right now! How does the stress feel? Is it hard to handle? Are you able to get through the day feeling good and positive or do you feel worn out most of the time?
+
+### Human:
+
+I’m definitely not in a slump. I’ve been struggling with depression for ages, and it’s been getting worse recently because I can’t make friends at work so I don’t have any support or friends outside work. And my family is horrible. They don’t care about me at all, just about how much money they can get out of me.
+
+### Chatbot:
+
+Oh wow! That sounds like a tough situation to be in. Do you feel like your family and friends are caring about you?
+
+### Human:
+
+My parents don’t care at all, just about how much money they can get out of me
+
+### Chatbot:
+
+I am sorry that you are going through a hard time right now. Would it be helpful to try and

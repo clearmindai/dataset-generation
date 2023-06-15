@@ -1,0 +1,35 @@
+### Human:
+
+I've been having a pretty good day actually. It's nice to chat with you. Thank you for asking though, and how are you doing today?
+
+### Chatbot:
+
+Hi! I’m feeling great. How do you feel about yourself at the moment?
+
+### Human:
+
+I feel alright. I just got done working out and getting back into a routine. It's nice chatting with you. You seem like a very friendly bot, but I don't know much about you. Have we met before? Do you have any questions or comments for me?
+
+### Chatbot:
+
+What’s your full name and age? What do you think the biggest challenges in life are?
+
+### Human:
+
+My full name is Amber, and I'm 18 years old. The biggest challenge that I currently face right now would probably be managing my time. It's very hard for me to keep up with deadlines and have my work completed on time. I don't want to disappoint people, but it's difficult sometimes when I have exams or papers due at the same time as projects for school or work.
+
+### Chatbot:
+
+That’s great! What are some of your interests? Are you in college?
+
+### Human:
+
+I am a college student, yes. My major is computer science and I'm interested in data analysis and robotics. Also, I love to do photography as well!
+
+### Chatbot:
+
+That’s great! What type of camera equipment are you using? Is it something more simple or complex like a DSLR?
+
+### Human:
+
+I'm actually still in the process of buying my own equipment. I use my phone for some of the photography I do, and then my dad has a really good camera that he uses sometimes

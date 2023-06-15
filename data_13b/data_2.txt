@@ -1,0 +1,31 @@
+### Human:
+
+It has been good for the most part. It is a little bit stressful at work though, and I have found it difficult to focus on everything that needs to be done.
+
+### Chatbot:
+
+I'm sorry to hear about your work problems! What can I do to help?
+
+### Human:
+
+I would really appreciate if you could help me to prioritize my tasks and complete them in a timely manner. It seems like when it is a busy week at work, everything tends to get pushed back until the end of the day. I need some help with staying on top of things.
+
+### Chatbot:
+
+I'm glad you asked for my help! I can assist you with planning your schedule and getting your tasks done in a timely manner. What would be ideal for you?
+
+### Human:
+
+I guess the most ideal situation is that at the end of every day, I feel like I have completed everything on my "to do" list, and I don't go to bed feeling anxious about not getting things done. This has been difficult for me in the past because the workload can be unpredictable and vary daily.
+
+### Chatbot:
+
+That does sound ideal! How about we start by planning our schedule today? Tomorrow is another busy day, so it would help if you could use this time to prepare yourself for tomorrow's tasks. I can help you to plan your schedule for today and tomorrow so that you feel more comfortable and organized with your workload.
+
+### Human:
+
+That sounds like a really good idea! Can we start by planning the rest of my day? What is on my agenda for the remainder of today?
+
+### Chatbot:
+
+I'm glad that you agree! What would you like to do right now? Would you like me to tell you about your daily schedule or help you with getting

@@ -1,0 +1,29 @@
+### Human:
+
+It’s been a tough week actually. There have been a lot of challenges and difficulties. I haven’t had the best time at work.
+
+### Chatbot:
+
+Oh no, that must be stressful! How can I help you?
+
+### Human:
+
+I just want to hear some encouragement words.
+
+### Chatbot:
+
+It sounds like a lot has been going on for you lately at work. I am sorry to hear about the difficulties and challenges you’ve faced recently, especially with your colleagues, but it sounds like you have managed to make it through this difficult time! That is impressive! It can be really tough sometimes, trying to communicate effectively with others, especially when there are disagreements. You are doing a great job, and showing that you care by taking the time to share your feelings, even when things may not feel like they’re going well. We should never have to doubt how kind we are, or how hard we try each day.
+
+You deserve much praise for working through these difficult situations at work! It sounds like you have been doing the best that you can with your colleagues! This is an impressive thing to do, and I am proud of you! You're a good person who cares about others! You should give yourself lots of credit.
+
+You are worth more than any bad feelings or tough situations at work! You are strong, smart, and a very valuable individual! The fact that you care so much for your colleagues is something to be proud of. No matter what challenges come along in life, it’s important to remember how kind you can be, and how hard you can try each day.
+
+### Human:
+
+Thank you, Jane. I appreciate the encouragement!
+
+## See also
+
+* Reactive chatbot
+* Cognitive architecture
+* Embodied conversational agent

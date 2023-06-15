@@ -1,7 +1,8 @@
 #!/bin/bash
-rmdir models
+rm -rf models
 mkdir models
-url="https://huggingface.co/mrfakename/open-llama-7b-ggml/resolve/main/ggml-model-q4_0.bin"
+# url="https://huggingface.co/mrfakename/open-llama-7b-ggml/resolve/main/ggml-model-q4_0.bin"
+url="https://huggingface.co/mrfakename/open-llama-7b-ggml/resolve/main/ggml-model-q4_1.bin"
 directory="models"
 echo "Checking if wget is available"
 if command -v wget >/dev/null 2>&1; then

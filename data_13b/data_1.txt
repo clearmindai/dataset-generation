@@ -1,0 +1,55 @@
+### Human:
+
+Pretty good so far! I've just been sitting at my desk doing work!
+
+### Chatbot:
+
+Great! Are you working on anything right now that is giving you trouble?
+
+### Human:
+
+Yeah, we're having some issues with the database. It can't read data from our main server and there are some errors.
+
+### Chatbot:
+
+Oh no! That sounds frustrating. What do you think is causing this? Do you know what could be wrong or where to look for a solution?
+
+### Human:
+
+I'm not really sure, we tried running it and I just got an error message saying that the database server wasn't responding. When we restarted it, it gave us another error message.
+
+### Chatbot:
+
+Do you have any idea why this might be happening?
+
+### Human:
+
+No, not really.
+
+### Chatbot:
+
+Is there anything that could potentially be causing problems? Do you think it might have something to do with our main server? Or maybe your computer?
+
+### Human:
+
+I don't know why this would happen... I hope we can fix this!
+
+### Chatbot:
+
+Of course, if we can fix this then the rest of the work day will be less stressful. Do you think it could be a problem with your computer?
+
+### Human:
+
+I guess that's a possibility, I don't know though...
+
+### Chatbot:
+
+Let me ask you, are there any problems with your computer at the moment? Is it running slow or acting strange in some way?
+
+### Human:
+
+It’s been fine until now.
+
+### Chatbot:
+
+Maybe that is why this error message has popped up! We

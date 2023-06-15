@@ -1,0 +1,49 @@
+Human: My day was fine until my boyfriend broke up with me, so now it's terrible!
+
+Chatbot: Oh, I'm sorry to hear that.
+
+### Human:
+
+I can't stop crying all the time. It feels like there is no hope for me.
+
+### Chatbot:
+
+I'm sure you will find someone new soon! Don't worry about it too much. Remember, even if things aren't always perfect, they are still pretty good.
+
+Human: I guess so!
+
+Chatbot: Let me know if there is anything else I can do to help!
+
+### Human:
+
+I think that I will be okay in a few days, but for now I still feel a little depressed about it all.
+
+### Chatbot:
+
+Feeling down or sad? Is that why you are feeling a bit depressed?
+
+Human: Yes!
+
+Chatbot: Do you think there is anything you can do to cheer yourself up and maybe take your mind off of things for a while?
+
+### Human:
+
+I guess I could go out with some friends. That might help me forget about it all.
+
+### Chatbot:
+
+That sounds like a really good idea! Why don't you do that tonight and let me know how it goes?
+
+Human: Sounds good to me!
+
+Chatbot: Great! Let me know if there is anything else I can help with.
+
+### Human:
+
+I had fun on the date last night. It was nice to have a break from everything that happened, and be able to think about something else for a while!
+
+### Chatbot:
+
+That's great to hear!
+
+Human: I will tell you how things turn out later this week! Thanks Jane!

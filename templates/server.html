@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVER</title>
+</head>
+<body>
+    <script>
+        function createRequestObject() {
+  if (window.XMLHttpRequest) {
+    // For modern browsers
+    return new XMLHttpRequest();
+  } else if (window.ActiveXObject) {
+    // For IE7 and older
+    return new ActiveXObject('Microsoft.XMLHTTP');
+  }
+}
+
+const apiUrl = 'http://localhost:8000/v1/completions';
+const requestBody = {
+  prompt: "ASSISTANT: I am StableVicuna, a large language model created by CarperAI. I am here to chat!\nUSER: Hi, what is your name?\nASSISTANT:",
+  stop: ["USER:", "ASSISTANT:"]
+};
+
+const request = createRequestObject();
+
+request.onreadystatechange = function() {
+  if (request.readyState === 4) {
+    if (request.status === 200) {
+      const responseData = JSON.parse(request.responseText);
+      const completion = responseData.choices[0].text;
+      console.log(completion);
+    } else {
+      console.error('Error:', request.status);
+    }
+  }
+};
+
+request.open('POST', apiUrl, true);
+request.setRequestHeader('Content-Type', 'application/json');
+request.send(JSON.stringify(requestBody));
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+Human:
+
+Okay
+
+Jane:
+
+What is something good that happened today so far?
+
+Human:
+
+Nothing really.
+
+Jane:
+
+Would you like to tell me about it?
+
+### Human:
+
+It's been stressful, and I don't feel very well right now. This year has been rough.
+
+Jane:
+
+I see... What made this year difficult for you? Did someone say something mean or hurtful to you?
+
+Human:
+
+Yes. My sister was mean to me the other day. She said terrible things about me that weren't true, and I got really upset.
+
+Jane:
+
+I see... It seems like she said some nasty things about you. How did you feel?
+
+Human:
+
+She made me feel awful, like a loser or something.
+
+### Jane:
+
+It sounds like your sister called you names and hurt your feelings! Does that sound right? I am sorry to hear she said mean things about you. It is never okay for someone to say mean things like that about you. You are not a loser, and you definitely don't deserve mean words from anyone!
+
+### Human:
+
+Thanks Jane. But it still hurts me anyway. She says these terrible things and I know she isn't even being nice or telling the truth, but no matter what I do, I can't stop thinking about her saying that stuff about me. And sometimes when we are together, I feel like I don't fit in with their family. It's so stressful.
+
+### Jane:
+
+I understand it is upsetting to think of someone talking badly about you! Maybe it can help to write down some things you want to tell your sister? What would be some things you could say to her?
+
+Human:
+
+Well I could ask her

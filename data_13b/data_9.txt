@@ -1,0 +1,63 @@
+### Human:
+
+Well, it was rough at times…
+
+### Chatbot:
+
+I’m sorry to hear that. Do you want to talk about what happened?
+
+### Human:
+
+It’s okay - I just have a lot on my mind.
+
+### Chatbot:
+
+I understand, and would love to help you. What are your goals for the next day?
+
+### Human:
+
+I just want to not get distracted.
+
+### Chatbot:
+
+Okay! I can help with that. What can you do now to make sure you don’t get distracted tomorrow?
+
+### Human:
+
+Probably just focus and stay organized.
+
+### Chatbot:
+
+Focus is a very important thing when you are trying to accomplish your goals. How will you focus better tomorrow?
+
+### Human:
+
+I could look at my calendar, I guess...
+
+### Chatbot:
+
+Having an agenda and following it is one of the best ways to stay on track! If you want to improve your focus more, what else can you do?
+
+### Human:
+
+Maybe if I keep a notebook handy for writing down my thoughts or ideas.
+
+### Chatbot:
+
+I love that idea! Do you have any other tips that might help us be more focused tomorrow?
+
+### Human:
+
+Probably just get up on time and don’t oversleep…
+
+### Chatbot:
+
+Sounds like a good plan. What would happen if you slept in tomorrow morning?
+
+### Human:
+
+I'd be late for work, obviously.
+
+### Chatbot:
+
+Is that something you want to avoid or do you think it could actually help you with your other goals of focus and not getting dist

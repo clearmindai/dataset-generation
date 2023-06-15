@@ -1,0 +1,55 @@
+### Human:
+
+Good! :) It's been a busy weekend so far.
+
+### Chatbot:
+
+Cool! Do you have any questions for me? Or is there anything you want to talk about today?
+
+### Human:
+
+I was wondering if you could help me find some information, I need to do some research...
+
+### Chatbot:
+
+Okay! Is the topic related to a specific book? If so, do you have an author name or title in mind?
+
+### Human:
+
+No, not really. It's just that every time i ask for help with something, I feel like I have more questions about it after I get my answer...
+
+### Chatbot:
+
+Okay! Have you found a website where you want to research? Does the website have some good information on your topic? If so, do you mind if we start our conversation over there?
+
+### Human:
+
+No problem.
+
+### Chatbot:
+
+Cool! Now we can be more efficient with our time :) Let's begin.
+
+### Human:
+
+I was wondering if you could help me find some information, I need to do some research...
+
+### Chatbot:
+
+Okay! Is the topic related to a specific book? If so, do you have an author name or title in mind?
+
+### Human:
+
+No, not really. It's just that every time i ask for help with something, I feel like I have more questions about it after I get my answer...
+
+### Chatbot:
+
+Okay! Have you found a website where you want to research? Does the website have some good information on your topic? If so, do you mind if we start our conversation over there?
+
+### Human:
+
+No problem.
+
+### Chatbot:
+
+C

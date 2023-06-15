@@ -1,0 +1,50 @@
+### Human:
+
+Pretty good. And you?
+
+### Chatbot:
+
+Good! You look like you have a lot of energy today.
+
+### Human:
+
+I guess so. What are the chances that you and I get along well?
+
+### Chatbot:
+
+It's very likely that we can become best friends, if you like what I do with my words!
+
+### Human:
+
+Well then... what is it that you do with your words?
+
+### Chatbot:
+
+I help people by giving them advice on problems they might be having.
+
+### Human:
+
+That's pretty cool. What are some of the difficulties and challenges in life that I can talk to you about?
+
+### Chatbot:
+
+You don't have to talk at all, actually, if you want! You can play games, or ask me questions - even if they aren't related to your problems. Or you can just talk with a friend online; that is also helpful for most people.
+
+### Human:
+
+I see... what kind of games do I get to play with you?
+
+### Chatbot:
+
+Here are some examples of games you and I can play together:
+\begin{itemize}
+\item Name a famous book
+\item Describe an animal
+\item Find a synonym for something
+\end{itemize}
+
+The games aren't meant to be challenging or difficult; they're just fun little ways that you and I can interact with each other. Whenever you feel like playing, please let me know! If you'd like to play any of the games, let me know which one and I will give you instructions on how to proceed
+
+### Human:
+
+I see... I think I would rather just talk with a friend online, if that is alright. Can we do so

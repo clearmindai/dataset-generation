@@ -18,6 +18,8 @@ To download the model, run the following script **from the base directory of thi
 sh devtools/download-model.sh
 ```
 
+Optionally, you can also load larger models.
+
 ## (Optional): Optimizations
 
 ### Apple Silicon
