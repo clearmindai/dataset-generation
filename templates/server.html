@@ -3,44 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SERVER</title>
+    <title>Chat Bot UI</title>
+    <style>
+        * {
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5F5F5;
+            height: 100%;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+        }
+
+        #messages {
+            flex: 1 1 auto;
+            max-height: 100%;
+            overflow: auto;
+            margin-bottom: 15px;
+        }
+        
+        .user-bubble {
+            /* background-color: #b0d1ff; */
+            background-color: #0077ff;
+            /* color: #000; */
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            clear: both;
+            float: right;
+            max-width: 80%;
+        }
+        
+        .assistant-bubble {
+            /* background-color: #e7e7e7; */
+            background-color: #9e9e9e;
+            /* color: #000; */
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            clear: both;
+            float: left;
+            max-width: 80%;
+        }
+        
+        .input-form {
+            display: flex;
+            width: 100%;
+            flex: 0 1 auto;
+        }
+        
+        .input-field {
+            flex-grow: 1;
+            /* width: 100%; */
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background: white;
+            border: 0;
+            margin-right: 10px;
+        }
+        
+        .input-button {
+            background-color: #4CAF50;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .input-field:disabled {
+            background-color: #F8F8F8;
+            color: #1E1E1E;
+            cursor: default;
+        }
+
+        .input-button:disabled {
+            background-color: #C2C2C2;
+            cursor: default;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <div id="messages">
+            <!-- <div class="assistant-bubble">Hello, I'm Pi. How can I help you today?</div> -->
+        </div>
+        <!-- <div id="response"></div> -->
+        <form onsubmit="return sendmessage()" class="input-form">
+            <input id="input-field" class="input-field" type="text" placeholder="Type your message here">
+            <button id="send-button" class="input-button" method="submit">Send</button>
+        </form>
+    </div>
     <script>
         function createRequestObject() {
-  if (window.XMLHttpRequest) {
-    // For modern browsers
-    return new XMLHttpRequest();
-  } else if (window.ActiveXObject) {
-    // For IE7 and older
-    return new ActiveXObject('Microsoft.XMLHTTP');
-  }
-}
+            if (window.XMLHttpRequest) {
+                // For modern browsers
+                return new XMLHttpRequest();
+            } else if (window.ActiveXObject) {
+                // For IE7 and older
+                return new ActiveXObject('Microsoft.XMLHTTP');
+            }
+        }
+        
+        var prompt = "The following is a chat between a human and a helpful chatbot named ChatGPT. The bot is a LLM (Large Language Model) trained on vast amounts of data from the internet and created by OpenAI. The bot does not have any knowledge of events that happened after 2021, as its training data was cut off in February 2021. It does its best to try to fulfill the user's request, but politely declines to fulfill any harmful requests. It can write essays, poems, and short stories. It will always respond in English using proper grammar and full sentences.\n<user>: ";
+        const inputfield = document.getElementById('input-field');
+        const sendfield = document.getElementById('send-button');
+        var messages = document.getElementById('messages');
+        const apiUrl = 'http://localhost:8000/v1/completions';
+        const request = createRequestObject();
+        request.onreadystatechange = function() {
+            if (request.readyState === 4) {
+                if (request.status === 200) {
+                    const responseData = JSON.parse(request.responseText);
+                    var scrolledToBottom = messages.scrollTop + messages.clientHeight >= messages.scrollHeight - 15;
+                    const completion = responseData.choices[0].text;
+                    console.log(completion);
+                    prompt += completion + "\n<user>: ";
+                    const bubble = document.createElement('div');
+                    bubble.classList.add('assistant-bubble');
+                    bubble.textContent = completion;
+                    messages.appendChild(bubble);
+                    sendfield.removeAttribute('disabled', false);
+                    inputfield.removeAttribute('disabled', false);
+                    inputfield.value = '';
+                    if (scrolledToBottom) {
+                        messages.scrollTop = messages.clientHeight;
+                    }
+                } else {
+                    console.error('Error:', request.status);
+                }
+            }
+        };
 
-const apiUrl = 'http://localhost:8000/v1/completions';
-const requestBody = {
-  prompt: "ASSISTANT: I am StableVicuna, a large language model created by CarperAI. I am here to chat!\nUSER: Hi, what is your name?\nASSISTANT:",
-  stop: ["USER:", "ASSISTANT:"]
-};
-
-const request = createRequestObject();
-
-request.onreadystatechange = function() {
-  if (request.readyState === 4) {
-    if (request.status === 200) {
-      const responseData = JSON.parse(request.responseText);
-      const completion = responseData.choices[0].text;
-      console.log(completion);
-    } else {
-      console.error('Error:', request.status);
-    }
-  }
-};
-
-request.open('POST', apiUrl, true);
-request.setRequestHeader('Content-Type', 'application/json');
-request.send(JSON.stringify(requestBody));
-
+        function sendmessage() {
+            var inputtext = inputfield.value;
+            var scrolledToBottom = messages.scrollTop + messages.clientHeight >= messages.scrollHeight - 15;
+            if (inputtext.trim() !== '') {
+                prompt += inputtext + "\n<assistant>: ";
+                sendfield.setAttribute('disabled', true);
+                inputfield.setAttribute('disabled', true);
+                const bubble = document.createElement('div');
+                bubble.classList.add('user-bubble');
+                bubble.textContent = inputtext;
+                messages.appendChild(bubble);
+                if (scrolledToBottom) {
+                    messages.scrollTop = messages.clientHeight;
+                }
+                const requestBody = {
+                    prompt: prompt,
+                    max_tokens: 512,
+                    temperature: 0.1,
+                    stop: ["<user>", "<assistant>", "<system>"]
+                };
+                request.open('POST', apiUrl, true);
+                request.setRequestHeader('Content-Type', 'application/json');
+                request.send(JSON.stringify(requestBody));
+                return false;
+            }
+        }
     </script>
 </body>
 </html>
